@@ -1,4 +1,4 @@
 title: Transactions
-modelClass: shayankhaksar\Zarinpal\Models\Transaction
+modelClass: ShayanKhaksar\Zarinpal\Models\Transaction
 toolbar:
     buttons: reorder_toolbar

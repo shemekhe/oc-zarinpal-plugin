@@ -1,7 +1,7 @@
 title: Transactions
-modelClass: shayankhaksar\Zarinpal\Models\Transaction
-list: $/shayankhaksar/zarinpal/models/transaction/columns.yaml
-recordUrl: 'shayankhaksar/zarinpal/transactions/update/:transaction_id'
+modelClass: ShayanKhaksar\Zarinpal\Models\Transaction
+list: $/ShayanKhaksar/zarinpal/models/transaction/columns.yaml
+recordUrl: 'ShayanKhaksar/zarinpal/transactions/update/:transaction_id'
 noRecordsMessage: 'backend::lang.list.no_records'
 showSetup: true
 showCheckboxes: true

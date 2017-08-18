@@ -1,10 +1,10 @@
 name: Transactions
-form: $/shayankhaksar/zarinpal/models/transaction/fields.yaml
-modelClass: shayankhaksar\Zarinpal\Models\Transaction
-defaultRedirect: shayankhaksar/zarinpal/transactions
+form: $/ShayanKhaksar/zarinpal/models/transaction/fields.yaml
+modelClass: ShayanKhaksar\Zarinpal\Models\Transaction
+defaultRedirect: ShayanKhaksar/zarinpal/transactions
 create:
-    redirect: 'shayankhaksar/zarinpal/transactions/update/:id'
-    redirectClose: shayankhaksar/zarinpal/transactions
+    redirect: 'ShayanKhaksar/zarinpal/transactions/update/:id'
+    redirectClose: ShayanKhaksar/zarinpal/transactions
 update:
-    redirect: shayankhaksar/zarinpal/transactions
-    redirectClose: shayankhaksar/zarinpal/transactions
+    redirect: ShayanKhaksar/zarinpal/transactions
+    redirectClose: ShayanKhaksar/zarinpal/transactions

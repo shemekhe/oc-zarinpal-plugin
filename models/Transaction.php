@@ -1,4 +1,4 @@
-<?php namespace shayankhaksar\Zarinpal\Models;
+<?php namespace ShayanKhaksar\Zarinpal\Models;
 
 use Model;
 

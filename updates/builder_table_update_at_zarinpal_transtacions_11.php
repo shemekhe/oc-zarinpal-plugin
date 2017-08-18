@@ -1,4 +1,4 @@
-<?php namespace shayankhaksar\Zarinpal\Updates;
+<?php namespace ShayanKhaksar\Zarinpal\Updates;
 
 use Schema;
 use October\Rain\Database\Updates\Migration;
