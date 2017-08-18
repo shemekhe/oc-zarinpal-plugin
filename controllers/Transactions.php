@@ -1,4 +1,4 @@
-<?php namespace at\Zarinpal\Controllers;
+<?php namespace shayankhaksar\Zarinpal\Controllers;
 
 use Backend\Classes\Controller;
 use BackendMenu;
@@ -12,12 +12,12 @@ class Transactions extends Controller
     public $reorderConfig = 'config_reorder.yaml';
 
     public $requiredPermissions = [
-        'at.zarinpal.manage_transaction' 
+        'shayankhaksar.zarinpal.manage_transaction'
     ];
 
     public function __construct()
     {
         parent::__construct();
-        BackendMenu::setContext('at.Zarinpal', 'main-menu-item', 'side-menu-item');
+        BackendMenu::setContext('shayankhaksar.Zarinpal', 'main-menu-item', 'side-menu-item');
     }
 }

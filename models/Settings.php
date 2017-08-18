@@ -6,7 +6,7 @@
  * Time: 9:53 PM
  */
 
-namespace at\Zarinpal\Models;
+namespace shayankhaksar\Zarinpal\Models;
 
 use Model;
 

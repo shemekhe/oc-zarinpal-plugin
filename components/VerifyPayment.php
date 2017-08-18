@@ -1,9 +1,9 @@
 <?php
 
-namespace at\ZarinPal\Components;
+namespace shayankhaksar\ZarinPal\Components;
 
-use at\Zarinpal\Models\Settings;
-use at\Zarinpal\Models\Transaction;
+use shayankhaksar\Zarinpal\Models\Settings;
+use shayankhaksar\Zarinpal\Models\Transaction;
 use Cms\Classes\ComponentBase;
 use Input;
 
@@ -22,8 +22,8 @@ class VerifyPayment extends ComponentBase
     public function componentDetails()
     {
         return [
-            'name' => 'at.zarinpal::lang.component.verify_payment.name',
-            'description' => 'at.zarinpal::lang.component.verify_payment.description'
+            'name' => 'shayankhaksar.zarinpal::lang.component.verify_payment.name',
+            'description' => 'shayankhaksar.zarinpal::lang.component.verify_payment.description'
         ];
     }
 

@@ -1,4 +1,4 @@
-<?php namespace at\Zarinpal;
+<?php namespace shayankhaksar\Zarinpal;
 
 use RainLab\User\Models\User;
 use System\Classes\PluginBase;
@@ -12,8 +12,8 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-            'at\zarinpal\Components\Payment' => 'payment',
-            'at\zarinpal\Components\VerifyPayment' => 'verifyPayment'
+            'shayankhaksar\zarinpal\Components\Payment' => 'payment',
+            'shayankhaksar\zarinpal\Components\VerifyPayment' => 'verifyPayment'
         ];
     }
 
@@ -21,11 +21,11 @@ class Plugin extends PluginBase
     {
         return [
             'settings' => [
-                'label'       => 'at.zarinpal::lang.setting.name',
-                'description' => 'at.zarinpal::lang.setting.description',
+                'label'       => 'shayankhaksar.zarinpal::lang.setting.name',
+                'description' => 'shayankhaksar.zarinpal::lang.setting.description',
                 'category'    => SettingsManager::CATEGORY_SHOP,
                 'icon'        => 'icon-money',
-                'class'       => 'At\Zarinpal\Models\Settings',
+                'class'       => 'shayankhaksar\Zarinpal\Models\Settings',
                 'keywords'    => 'zarinpal زرین پل زرین پال zarin payment',
             ]
         ];
@@ -33,7 +33,7 @@ class Plugin extends PluginBase
 
     public function boot(){
         User::extend(function ($model){
-            $model->hasMany['transactions'] = ['at\Zarinpal\Models\Transaction', 'key' => 'user_id'];
+            $model->hasMany['transactions'] = ['shayankhaksar\Zarinpal\Models\Transaction', 'key' => 'user_id'];
         });
     }
 }

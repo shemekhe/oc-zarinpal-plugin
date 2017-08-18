@@ -6,10 +6,10 @@
  * Time: 2:22 AM
  */
 
-namespace at\ZarinPal\Components;
+namespace shayankhaksar\ZarinPal\Components;
 
-use at\Zarinpal\Models\Settings;
-use at\Zarinpal\Models\Transaction;
+use shayankhaksar\Zarinpal\Models\Settings;
+use shayankhaksar\Zarinpal\Models\Transaction;
 use Cms\Classes\ComponentBase;
 use RainLab\User\Models\User;
 use Redirect;
@@ -23,8 +23,8 @@ class Payment extends ComponentBase
     public function componentDetails()
     {
         return [
-            'name' => 'at.zarinpal::lang.component.payment.name',
-            'description' => 'at.zarinpal::lang.component.payment.description'
+            'name' => 'shayankhaksar.zarinpal::lang.component.payment.name',
+            'description' => 'shayankhaksar.zarinpal::lang.component.payment.description'
         ];
     }
 
@@ -32,12 +32,12 @@ class Payment extends ComponentBase
     {
         return [
             'callback_url' => [
-                'title' => 'at.zarinpal::lang.component.payment.properties.callback_url.name',
-                'description' => 'at.zarinpal::lang.component.payment.properties.callback_url.description',
+                'title' => 'shayankhaksar.zarinpal::lang.component.payment.properties.callback_url.name',
+                'description' => 'shayankhaksar.zarinpal::lang.component.payment.properties.callback_url.description',
                 'default' => Settings::get('callback_url'),
                 'type' => 'string',
                 'required' => true,
-                'validationMessage' => 'at.zarinpal::lang.component.payment.properties.callback_url.validation_message'
+                'validationMessage' => 'shayankhaksar.zarinpal::lang.component.payment.properties.callback_url.validation_message'
             ]
         ];
     }
