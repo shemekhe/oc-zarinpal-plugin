@@ -1,0 +1,10 @@
+name: Transactions
+form: $/at/zarinpal/models/transaction/fields.yaml
+modelClass: at\Zarinpal\Models\Transaction
+defaultRedirect: at/zarinpal/transactions
+create:
+    redirect: 'at/zarinpal/transactions/update/:id'
+    redirectClose: at/zarinpal/transactions
+update:
+    redirect: at/zarinpal/transactions
+    redirectClose: at/zarinpal/transactions

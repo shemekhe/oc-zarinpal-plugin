@@ -1,0 +1,22 @@
+plugin:
+    name: 'at.zarinpal::lang.plugin.name'
+    description: 'at.zarinpal::lang.plugin.description'
+    author: Haminvara
+    icon: oc-icon-money
+    homepage: ''
+permissions:
+    at.zarinpal.manage_transaction:
+        tab: 'Transaction Management'
+        label: 'Transaction Management'
+navigation:
+    main-menu-item:
+        label: Transactions
+        url: at/zarinpal/transactions
+        icon: icon-money
+        permissions:
+            - at.zarinpal.manage_transaction
+        sideMenu:
+            side-menu-item:
+                label: 'at.zarinpal::lang.plugin.name'
+                url: at/zarinpal/transactions
+                icon: icon-money

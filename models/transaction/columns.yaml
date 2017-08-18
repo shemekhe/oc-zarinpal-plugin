@@ -1,0 +1,38 @@
+columns:
+    transaction_id:
+        label: transaction_id
+        type: number
+        searchable: false
+        sortable: true
+    authority:
+        label: authority
+        type: text
+        searchable: true
+        sortable: true
+    is_successful:
+        label: is_successful
+        type: switch
+        sortable: true
+    ref_id:
+        label: ref_id
+        type: text
+        searchable: true
+    description:
+        label: description
+        type: text
+    created_at:
+        label: created_at
+        type: datetime
+        sortable: true
+    updated_at:
+        label: updated_at
+        type: datetime
+        sortable: true
+    user_id:
+        label: name
+        type: text
+        select: nickname
+        relation: user
+    amount:
+        label: amount
+        type: text

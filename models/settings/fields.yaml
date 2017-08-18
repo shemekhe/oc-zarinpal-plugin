@@ -1,0 +1,11 @@
+fields:
+    merchant_id:
+        label: 'Merchant ID'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    callback_url:
+        label: 'CallBack URL'
+        oc.commentPosition: ''
+        span: auto
+        type: text

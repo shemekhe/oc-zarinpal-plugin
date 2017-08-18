@@ -1,0 +1,52 @@
+fields:
+    authority:
+        label: authority
+        oc.commentPosition: ''
+        span: auto
+        disabled: 1
+        context:
+            - update
+            - preview
+        type: text
+    ref_id:
+        label: ref_id
+        oc.commentPosition: ''
+        span: auto
+        disabled: 1
+        context:
+            - update
+            - preview
+        type: text
+    is_successful:
+        label: is_successful
+        span: auto
+        disabled: 1
+        context:
+            - update
+            - preview
+        type: switch
+    description:
+        label: Description
+        size: ''
+        oc.commentPosition: ''
+        span: auto
+        disabled: 1
+        context:
+            - update
+            - preview
+        type: textarea
+    updated_at:
+        label: Update
+        oc.commentPosition: ''
+        span: auto
+        disabled: 1
+        type: text
+    created_at:
+        label: Create
+        span: auto
+        oc.commentPosition: ''
+        disabled: 1
+        context:
+            - update
+            - preview
+        type: text
